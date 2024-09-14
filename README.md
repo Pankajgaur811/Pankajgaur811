@@ -1,6 +1,6 @@
-<h1 align="center">Hi 👋, I'm Pankaj Gaur</h1>
-<h3 align="center">Contributing to Mobile App Development | Kotlin Enthusiast | Android Development Professional</h3>
+![Logo](https://github.com/Pankajgaur811/Pankajgaur811/blob/main/github-header-image%20(1).png)
 
+<h3 align="center">Contributing to Mobile App Development | Kotlin Enthusiast | Android Development Professional</h3>
 - 🔭 I’m currently working on **Mobile Security App**
 
 - 🌱 I’m currently learning **Jetpack Compose,**
