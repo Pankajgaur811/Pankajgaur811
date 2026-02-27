@@ -1,4 +1,4 @@
-![Logo](https://github.com/Pankajgaur811/Pankajgaur811/blob/main/github-header-image%20(1).png)
+![Logo](https://github.com/Pankajgaur811/Pankajgaur811/blob/main/github-header-pankaj.svg)
 
 <h1 align="center">Hi 👋, I'm Pankaj Gaur</h1>
 <h3 align="center">Software Engineer · Android Developer · Kotlin & Jetpack Compose Enthusiast</h3>
