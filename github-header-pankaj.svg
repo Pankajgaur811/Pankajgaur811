@@ -1,0 +1,172 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020817"/>
+      <stop offset="50%" stop-color="#040d24"/>
+      <stop offset="100%" stop-color="#020817"/>
+    </linearGradient>
+
+    <!-- Blue glow gradient -->
+    <radialGradient id="glow1" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="60%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Skill pill gradient -->
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f2744"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow1)"/>
+  <rect width="1200" height="300" fill="url(#glow2)"/>
+
+  <!-- Grid lines horizontal -->
+  <line x1="0" y1="60" x2="1200" y2="60" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="240" x2="1200" y2="240" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Grid lines vertical -->
+  <line x1="150" y1="0" x2="150" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="300" y1="0" x2="300" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="450" y1="0" x2="450" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="600" y1="0" x2="600" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="750" y1="0" x2="750" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="900" y1="0" x2="900" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+  <line x1="1050" y1="0" x2="1050" y2="300" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Floating code snippets (background) -->
+  <text x="30" y="40" font-family="monospace" font-size="11" fill="#1e40af" opacity="0.35">fun buildApp() {</text>
+  <text x="30" y="58" font-family="monospace" font-size="11" fill="#1e40af" opacity="0.25">  val arch = MVVM()</text>
+  <text x="30" y="76" font-family="monospace" font-size="11" fill="#1e40af" opacity="0.2">  compose { UI() }</text>
+  <text x="30" y="94" font-family="monospace" font-size="11" fill="#1e40af" opacity="0.25">}</text>
+
+  <text x="920" y="220" font-family="monospace" font-size="11" fill="#0e7490" opacity="0.3">@Composable</text>
+  <text x="920" y="238" font-family="monospace" font-size="11" fill="#0e7490" opacity="0.25">fun Screen() {</text>
+  <text x="920" y="256" font-family="monospace" font-size="11" fill="#0e7490" opacity="0.2">  LazyColumn {}</text>
+  <text x="920" y="274" font-family="monospace" font-size="11" fill="#0e7490" opacity="0.25">}</text>
+
+  <text x="1060" y="50" font-family="monospace" font-size="10" fill="#1e3a5f" opacity="0.4">class MainActivity</text>
+  <text x="1060" y="66" font-family="monospace" font-size="10" fill="#1e3a5f" opacity="0.3">  : AppCompatActivity()</text>
+
+  <text x="20" y="260" font-family="monospace" font-size="10" fill="#1e3a5f" opacity="0.3">// Kotlin • MVVM • Compose</text>
+  <text x="20" y="278" font-family="monospace" font-size="10" fill="#1e3a5f" opacity="0.25">// Clean Architecture</text>
+
+  <!-- Left decorative vertical line -->
+  <line x1="72" y1="50" x2="72" y2="250" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="72" cy="50" r="3" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="72" cy="150" r="2" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="72" cy="250" r="3" fill="#60a5fa" opacity="0.8"/>
+
+  <!-- Android logo outline (right side decoration) -->
+  <g transform="translate(1080, 80)" opacity="0.08">
+    <rect x="0" y="40" width="80" height="70" rx="12" fill="#3b82f6"/>
+    <circle cx="40" cy="20" r="30" fill="#3b82f6"/>
+    <rect x="8" y="8" width="10" height="10" rx="5" fill="#020817"/>
+    <rect x="62" y="8" width="10" height="10" rx="5" fill="#020817"/>
+    <rect x="-10" y="45" width="10" height="45" rx="5" fill="#3b82f6"/>
+    <rect x="80" y="45" width="10" height="45" rx="5" fill="#3b82f6"/>
+    <rect x="15" y="110" width="12" height="30" rx="6" fill="#3b82f6"/>
+    <rect x="53" y="110" width="12" height="30" rx="6" fill="#3b82f6"/>
+  </g>
+
+  <!-- Dot matrix top right -->
+  <g opacity="0.12">
+    <circle cx="1140" cy="20" r="2" fill="#60a5fa"/>
+    <circle cx="1160" cy="20" r="2" fill="#60a5fa"/>
+    <circle cx="1180" cy="20" r="2" fill="#60a5fa"/>
+    <circle cx="1140" cy="40" r="2" fill="#60a5fa"/>
+    <circle cx="1160" cy="40" r="2" fill="#60a5fa"/>
+    <circle cx="1180" cy="40" r="2" fill="#60a5fa"/>
+    <circle cx="1140" cy="60" r="2" fill="#60a5fa"/>
+    <circle cx="1160" cy="60" r="2" fill="#60a5fa"/>
+    <circle cx="1180" cy="60" r="2" fill="#60a5fa"/>
+  </g>
+
+  <!-- Dot matrix bottom left -->
+  <g opacity="0.1">
+    <circle cx="20" cy="240" r="1.5" fill="#60a5fa"/>
+    <circle cx="35" cy="240" r="1.5" fill="#60a5fa"/>
+    <circle cx="50" cy="240" r="1.5" fill="#60a5fa"/>
+    <circle cx="20" cy="255" r="1.5" fill="#60a5fa"/>
+    <circle cx="35" cy="255" r="1.5" fill="#60a5fa"/>
+    <circle cx="50" cy="255" r="1.5" fill="#60a5fa"/>
+    <circle cx="20" cy="270" r="1.5" fill="#60a5fa"/>
+    <circle cx="35" cy="270" r="1.5" fill="#60a5fa"/>
+    <circle cx="50" cy="270" r="1.5" fill="#60a5fa"/>
+  </g>
+
+  <!-- Horizontal accent line top -->
+  <line x1="100" y1="2" x2="1100" y2="2" stroke="url(#nameGrad)" stroke-width="2" opacity="0.6"/>
+  <!-- Horizontal accent line bottom -->
+  <line x1="100" y1="298" x2="1100" y2="298" stroke="url(#nameGrad)" stroke-width="2" opacity="0.6"/>
+
+  <!-- MAIN CONTENT — left aligned from center -->
+
+  <!-- Tagline above name -->
+  <text x="110" y="82" font-family="monospace" font-size="13" fill="#38bdf8" opacity="0.9" letter-spacing="4">// SOFTWARE ENGINEER · ANDROID DEVELOPER</text>
+
+  <!-- NAME — big and bold -->
+  <text x="106" y="160" font-family="Arial Black, sans-serif" font-size="72" font-weight="900" fill="url(#nameGrad)" filter="url(#softglow)" letter-spacing="-1">Pankaj Gaur</text>
+
+  <!-- Tagline below name -->
+  <text x="112" y="192" font-family="Arial, sans-serif" font-size="15" fill="#94a3b8" letter-spacing="1">Building seamless Android experiences with  4+ years · 5L+ downloads on Play Store</text>
+
+  <!-- Skill pills -->
+  <!-- Kotlin -->
+  <rect x="110" y="212" width="90" height="28" rx="14" fill="#0f2744" stroke="#3b82f6" stroke-width="1" opacity="0.9"/>
+  <text x="155" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#7dd3fc" text-anchor="middle">Kotlin</text>
+
+  <!-- Jetpack Compose -->
+  <rect x="210" y="212" width="152" height="28" rx="14" fill="#0f2744" stroke="#3b82f6" stroke-width="1" opacity="0.9"/>
+  <text x="286" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#7dd3fc" text-anchor="middle">Jetpack Compose</text>
+
+  <!-- MVVM -->
+  <rect x="372" y="212" width="70" height="28" rx="14" fill="#0f2744" stroke="#22d3ee" stroke-width="1" opacity="0.9"/>
+  <text x="407" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#67e8f9" text-anchor="middle">MVVM</text>
+
+  <!-- Clean Architecture -->
+  <rect x="452" y="212" width="168" height="28" rx="14" fill="#0f2744" stroke="#22d3ee" stroke-width="1" opacity="0.9"/>
+  <text x="536" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#67e8f9" text-anchor="middle">Clean Architecture</text>
+
+  <!-- Firebase -->
+  <rect x="630" y="212" width="90" height="28" rx="14" fill="#0f2744" stroke="#34d399" stroke-width="1" opacity="0.9"/>
+  <text x="675" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7" text-anchor="middle">Firebase</text>
+
+  <!-- Dagger Hilt -->
+  <rect x="730" y="212" width="112" height="28" rx="14" fill="#0f2744" stroke="#34d399" stroke-width="1" opacity="0.9"/>
+  <text x="786" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7" text-anchor="middle">Dagger-Hilt</text>
+
+  <!-- REST API -->
+  <rect x="852" y="212" width="86" height="28" rx="14" fill="#0f2744" stroke="#818cf8" stroke-width="1" opacity="0.9"/>
+  <text x="895" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#a5b4fc" text-anchor="middle">REST APIs</text>
+
+  <!-- Glowing cursor blink effect -->
+  <rect x="830" y="135" width="4" height="48" rx="2" fill="#60a5fa" opacity="0.8"/>
+
+</svg>
