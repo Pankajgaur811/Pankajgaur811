@@ -17,7 +17,7 @@
 ## 🚀 About Me
 
 - 🏢 Currently working as **Software Engineer at Sakash Group**
-- 📱 **4+ years** of Android development experience — from architecture to Play Store deployment
+- 📱 **5+ years** of Android development experience — from architecture to Play Store deployment
 - 🏆 Contributed to apps with **5 Lakh+ downloads** on the Google Play Store
 - 🔭 Currently building with **Jetpack Compose & Multi-Module MVVM**
 - 🌍 Worked with **US-based and Indian clients** across cybersecurity, healthcare, e-commerce & more
